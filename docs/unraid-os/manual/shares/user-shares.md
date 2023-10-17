@@ -147,7 +147,7 @@ import TabItem from '@theme/TabItem';
       <li>Change the Use Cache setting for the share to <i>Yes</i>.</li>
       <li>Go to <b><i>Main > Array Operation</i></b>, and select <b>Move</b> to manually move files from the pool (cache) to the array.</li>
       <li>When mover finishes, you can re-enable the Docker and/or VMs services you use if you disabled them earlier.</li>
-      <li>Change the <b>Use Cache</b> setting to <i>Only</i> to say files for this share can never be written to the array.</li>
+      <li>Change the <b>Use Cache</b> setting to <i>No</i> to say files for this share can never be written to the array.</li>
     </ol>
   </TabItem>
 </Tabs>
@@ -174,7 +174,7 @@ The way to proceed to get the files belonging to a share from the main array ont
     <li>Change the <b>Use Cache</b> setting for the share to <i>Prefer</i>.</li>
     <li>Go to <b><i>Main > Array Operation</i></b>, and select <b>Move</b> to manually move files from the array to the pool (cache).</li>
     <li>When mover finishes, you can re-enable the Docker and/or VMs services you use if you disabled them earlier.</li>
-    <li>Change the <b>Use Cache</b> setting to <i>No</i> to say files for this share can never be written to the array.</li>
+    <li>Change the <b>Use Cache</b> setting to <i>Only</i> to say files for this share can never be written to the array.</li>
     </ol>
   </TabItem>
 </Tabs>
